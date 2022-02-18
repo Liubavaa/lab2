@@ -1,3 +1,6 @@
+"""
+Module make a map
+"""
 import folium
 import geopy
 
@@ -38,6 +41,9 @@ def find_coordinates(place):
 
 
 def iter_places(places):
+    """
+    Function iter friends' location
+    """
     incorrect_places = []
     for place_inf in places:
         location = place_inf[1]

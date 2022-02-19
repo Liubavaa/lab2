@@ -106,3 +106,6 @@ def parse_information():
         data = json.load(json_f)
     print(USING)
     object_guide(data)
+
+if __name__ == '__main__':
+    parse_information()
